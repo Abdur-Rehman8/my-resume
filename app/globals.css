@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    width: 1400px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.poly{
+    clip-path: polygon(0 0, 0% 100%, 100% 40%);
+
+}
+.poly1{
+    clip-path: polygon(50% 0%, 0% 100%, 0 0);
+    background-color: cyan;
+
+}
+.poly2{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: black;
+
+}
+.poly3{
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%);
+    background-color: red;
+
+}
+.poly4{
+    -webkit-clip-path: circle(50% at 50% 50%);
+clip-path: circle(50% at 50% 50%);
+background: #00ffff0f;
+}
+
+
+.typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+      typing 6s steps(40, end),
+      blink-caret 4s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+  .pre{
+    background-color: #edf2f8;;
+  }
+  .f-border{
+    border-bottom: 1px solid #cccc;
+  }
+  .svg-border{
+    border: 1px solid #d3d3d35c;
+    border-radius: 999px;
+  }
+
+  .scal{
+    scale: 1.2 infinite linear;
+  }
+  .grew:hover { transform: scale(0.9); }
+  .grew { transition: all 0.5s ease-in-out; }
+
+  .accordion__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+  }
+  
+  .accordion__content--open {
+    max-height: 250px; /* adjust the value based on your content height */
+  }
+  
+
+  html{
+    scroll-behavior: smooth;
+  }

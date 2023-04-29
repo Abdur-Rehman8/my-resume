@@ -22,6 +22,7 @@ export default function Header() {
                         <li className=' hover:text-cyan-400 duration-200  font-medium  uppercase  text-black'> <a href={'/#about'}>About</a></li>
                         <li className=' hover:text-cyan-400 duration-200  font-medium  uppercase  text-black'> <a href={'/#services'}>Services</a></li>
                         <li className='  hover:text-cyan-400 duration-200  font-medium  uppercase  text-black'> <a href="/#projects">projects</a></li>
+                        <li className='  hover:text-cyan-400 duration-200  font-medium  uppercase  text-black'> <a href="/#projects">test</a></li>
 
                     </ul>
                 </div>

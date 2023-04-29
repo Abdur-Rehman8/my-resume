@@ -16,7 +16,7 @@ export default function About() {
                             <Image src={about} height={400} width={500} alt={"about me"} className='rounded-lg mx-auto' />
                         </div>
                         <div className=' flex-1 text-center lg:text-start lg:px-0 px-2 sm:px-24'>
-                            <p className='text-[16px] md:text-[19px] leading-[1.3]  '> hi! I am Abdur Rehman, a Self-motivated software engineering student with a passion for making stunning websites using cutting-edge technology. I specialize in front-end development using HTML, CSS, and JavaScript. In addition, I am experienced in using popular front-end frameworks such as Next.js and React.js to create responsive and dynamic user interfaces. With a strong focus on clean and efficient code, I strive to deliver high-quality solutions that meet the needs of my clients</p>
+                            <p className='text-[16px] md:text-[19px] leading-[1.3]  '> hi! I am Abdur Rehman, a Self-motivated software engineering student with a passion for making stunning websites using cutting-edge technology. I specialize in front-end development using HTML, CSS, and JavaScript. In addition, I am experienced in using popular front-end frameworks such as Next.js and React.js to create responsive and dynamic user interfaces. With a strong focus on clean and efficient code, I strive to deliver high-quality solutions that meet the needs of my clients.</p>
 
 
                             <button className=' text-xl bg-cyan-400  hover:bg-cyan-600 duration-500  py-2 px-8 rounded-lg mt-4 font-semibold  text-white   hover:text-white'> Get In Touch</button>
